@@ -1,0 +1,309 @@
+
+/*COLORES*/
+.morado{
+    color: #79038f;
+}
+.amarillo{
+    color: #f0c104;
+}
+
+
+/* CSS HEADER */
+body {
+    background: #fff;
+    color: #666666;
+    font-family: "Carmen Sans", sans-serif;
+    scroll-behavior: smooth;
+}
+#header.header-transparent {
+    background: transparent;
+}
+#header {
+    height: 115px;
+    transition: all 0.5s;
+    z-index: 997;
+    background: rgba(52, 59, 64, 0.9);
+    font-weight: bold;
+}
+#header a {
+    color: #82039A;
+    cursor: pointer;
+}
+#header a:hover{
+    color: #efc90a;
+}
+#header .active{
+    color: #efc90a !important;
+}
+#header #logo img {
+    padding: 0;
+    margin: 0;
+}
+.logoAccent {
+    width: 200px;
+}
+#barra_menu{
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.align-items-center {
+    align-items: center!important;
+}
+.d-flex {
+    display: flex!important;
+}
+.navbar {
+    padding: 0;
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar li {
+    position: relative;
+}
+.navbar>ul>li {
+    white-space: nowrap;
+    padding: 10px 0 10px 24px;
+    z-index: 10;
+}
+.forma{
+    border-top-left-radius: 300px 500px;
+    border-bottom-left-radius: 500px 600px;
+    background-color: rgb( 255, 255, 255 );
+    position: absolute;
+    width: 50%;
+    height: 125vh;
+    z-index: 3;
+    top: -20%;
+    right: 0;
+}
+.contenedor{
+    height: 100vh;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#contenido {
+    background-color:#82039A;
+    height: 100vh;
+    width: 100%;
+    padding-top: 5%;
+}
+#carousel{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.carousel{
+    z-index: 10;
+}
+.content-image{
+    float: left;
+}
+.content-image img{
+    padding: 60px;
+}
+.content-text{
+    float: right;
+    padding-top: 10%;
+}
+.content-text h1{
+    font-weight:bolder;
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 4%;
+    font-size: 5rem;
+}
+.text-parrafo{
+    margin-top: 4%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.text-parrafo p{
+    text-align: justify;
+    font-size: 25px;
+}
+button{
+    font-size: 28px;
+    border: none;
+    border-radius: 40px;
+    background-color: #79038f;
+    color: #fff;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    width: 340px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.bolder{
+    font-weight: bolder;
+}
+.more-information{
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: 1%;
+}
+#text-context{
+    display: none;
+}
+.page-footer{
+    display:none;
+    background-color: #ededed;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 150px;
+    padding: 10px;
+    position: fixed;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom:0;
+    clear: both;
+    z-index: 50;
+}
+
+.page-footer p{
+    align-items: center;
+}
+/* TELEFONOS GENERALES */
+@media(max-width : 760px) {
+    .forma{
+        display: none;
+    }
+
+    #navbar{
+        display: none;
+    }
+
+    .contenedor{
+        display: block;
+        padding-top: 12%;
+    }
+
+    .content-text h1{
+        font-size: 35px;
+        text-align: center;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-bottom: 0px;
+    }
+
+    .morado{
+        color: #fff;
+    }
+
+    #text-context{
+        display: block;
+    }
+
+    #text-context{
+        padding-top: 0%;
+        margin-top: -5%;
+        margin-bottom: 3%;
+    }
+
+    .txt-web{
+        display: none;
+    }
+
+    .content-image img {
+        padding: 0px 10px 0px 10px;
+    }
+
+    .text-parrafo {
+        margin-top: 0%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .text-parrafo p {
+        text-align: center;
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .page-footer{
+        display: flex;
+    }
+
+    .page-footer p{
+        margin-bottom: 0px !important;
+        text-align: center;
+    }
+
+    .page-footer button{
+        font-size: 18px;
+        border: none;
+        border-radius: 40px;
+        background-color: #79038f;
+        color: #fff;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+        margin-top: 0px;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .center{
+        text-align: center;
+        align-items: center;
+    }
+
+
+
+}
+@media (min-width: 700px) and (max-width: 899px){
+    .content-text h1{
+        font-size: 60px;
+    }
+
+    .text-parrafo p{
+        font-size: 20px;
+    }
+
+    .content-text{
+        padding-top: 5%;
+    }
+
+    button{
+        font-size: 20px;
+        border: none;
+        border-radius: 40px;
+        background-color: #79038f;
+        color: #fff;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        width: 250px;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1100px){
+    .content-text h1{
+        font-size: 60px;
+    }
+
+    .text-parrafo p{
+        font-size: 20px;
+    }
+
+    .content-text{
+        padding-top: 5%;
+    }
+}
