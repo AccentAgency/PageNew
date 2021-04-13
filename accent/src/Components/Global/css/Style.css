@@ -72,14 +72,14 @@ body {
     z-index: 10;
 }
 .forma{
-    border-top-left-radius: 300px 500px;
-    border-bottom-left-radius: 500px 600px;
+    border-top-left-radius: 500px 800px;
+    border-bottom-left-radius: 500px 800px;
     background-color: rgb( 255, 255, 255 );
     position: absolute;
-    width: 50%;
+    width: 52%;
     height: 125vh;
     z-index: 3;
-    top: -20%;
+    top: -10%;
     right: 0;
 }
 .contenedor{
@@ -107,7 +107,8 @@ body {
     float: left;
 }
 .content-image img{
-    padding: 60px;
+    padding: 20px;
+    margin-left: 12%;
 }
 .content-text{
     float: right;
@@ -155,6 +156,34 @@ button{
 #text-context{
     display: none;
 }
+.selected .content-text h1{
+    animation: fadeInDown 3s;
+}
+.selected .content-image img{
+    animation: zoom 2s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@keyframes fadeInDown {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 .page-footer{
     display:none;
     background-color: #ededed;
@@ -171,7 +200,6 @@ button{
     clear: both;
     z-index: 50;
 }
-
 .page-footer p{
     align-items: center;
 }
@@ -209,7 +237,7 @@ button{
     #text-context{
         padding-top: 0%;
         margin-top: -5%;
-        margin-bottom: 3%;
+        margin-bottom: 8%;
     }
 
     .txt-web{
@@ -224,12 +252,14 @@ button{
         margin-top: 0%;
         padding-left: 5%;
         padding-right: 5%;
+        margin-bottom: 8%;
     }
 
     .text-parrafo p {
         text-align: center;
         font-size: 18px;
         color: #fff;
+        margin-bottom: 5%;
     }
 
     .page-footer{
@@ -305,5 +335,11 @@ button{
 
     .content-text{
         padding-top: 5%;
+    }
+}
+
+@media (min-width: 1900px) and (max-width: 2100px){
+    .carousel .control-dots {
+        bottom: 10% !important;
     }
 }

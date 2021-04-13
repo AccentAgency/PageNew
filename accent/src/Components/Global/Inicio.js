@@ -5,9 +5,12 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
+
+
 //Imagenes
 import logo from './images/logo.svg';
 import web from './images/web.png';
+
 
 class Inicio extends Component {
     componentDidMount=()=>{
@@ -40,7 +43,7 @@ class Inicio extends Component {
                     <div id="carousel" className="">
                         <div className="">
                             <div className='contenedor'>
-                                <Carousel>
+                                <Carousel showArrows={false} showStatus={false}>
                                     <div className="slider1 col-md-12 col-lg-12">
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">TU PÁGINA WEB EN</span> <span className="amarillo">72 HORAS</span></h1>
@@ -71,7 +74,7 @@ class Inicio extends Component {
                                             <img className="img-responsive" src={web}></img>
                                         </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
-                                            <h2>PARTE 2</h2>
+                                            <h1>PARTE 2</h1>
                                         </div>
                                     </div>
                                 </Carousel>
