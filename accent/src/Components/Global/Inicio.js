@@ -78,8 +78,8 @@ class Inicio extends Component {
                                         </div>
                                     </div>
                                 </Carousel>
-
-                                <footer class="page-footer">
+                                
+                                <footer className="page-footer">
                                     <div className="col-md-12">
                                         <p>CLICK AQUI</p>
                                     </div>    
@@ -87,195 +87,117 @@ class Inicio extends Component {
                                         <button className="btn_info">¡SOLICÍTALA <span className="bolder amarillo"> YA!</span></button>
                                     </div>
                                 </footer>
-                                <footer id="foot-bottom" className="footer color-bg footer-foot ">
-                                    <div className="footer-bottom">
-                                        <div className="container-accent">
-                                            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-center">
+                                <footer className="footer-mobile">
+                                    <h3>Accent Digital Agency</h3>
+                                    <p><strong>Valencia.</strong>Av 4Av. CC P Reda Building Torre A Nivel 3 Ofic.13 Urb El Parral.</p>
 
-                                                <div className="col-xs-12 col-sm-6 col-md-8 col-lg-8">
-                                                    <h3>Accent Digital Agency</h3>
-                                                    <p><strong>Valencia.</strong>Av 4Av. CC P Reda Building Torre A Nivel 3 Ofic.13 Urb El Parral.</p>
-                                                </div>
-
-
-                                                <div id="footer-det" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">PROGRAMACIÓN</h4>
-                                                        </div>
-                                                        
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Páginas Web">Páginas Web</span></li>
-                                                                <li><span title="E-Commerce">E-Commerce</span></li>
-                                                                <li><span title="Landing Page">Landing Page</span></li>
-                                                                <li><span title="App Móviles">App Móviles</span></li>
-                                                                <li><span title="App Web">Aplicaciones Web</span></li>
-                                                                <li><span title="Software">Software</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        
-                                                    </div>
-
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">REDES SOCIALES</h4>
-                                                        </div>
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Instagram">Instagram</span></li>
-                                                                <li><span title="Facebook">Facebook</span></li>
-                                                                <li><span title="Twitter">Twitter</span></li>
-                                                                <li><span title="TikTok">TikTok</span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">DISEÑO GRÁFICO</h4>
-                                                        </div>
-
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Logos">Logos</span></li>
-                                                                <li><span title="Branding">Branding</span></li>
-                                                                <li><span title="Flyers">Flyers</span></li>
-                                                                <li><span title="Gigantografía">Gigantografía</span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">FOTOGRAFÍA</h4>
-                                                        </div>
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Foto Producto">Foto Producto</span></li>
-                                                                <li><span title="Gastronomía">Gastronomía</span></li>
-                                                                <li><span title="Retratos">Retratos</span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                        
+                                    <div className="col-xs-12 col-md-6 col-lg-6">
+                                        <h5>DISEÑO GRÁFICO</h5>
+                                        <ul className='list-unstyled'>
+                                            <li className="first"><span title="Logos">Logos</span></li>
+                                            <li><span title="Branding">Branding</span></li>
+                                            <li><span title="Flyers">Flyers</span></li>
+                                            <li><span title="Gigantografía">Gigantografía</span></li>
+                                        </ul>
                                     </div>
 
-                                    <div className="copyright-bar col-xs-12">
-                                        <div className="container">
-                                            <div className="col-xs-12 col-sm-12 no-padding copyright">&copy; Copyright 2021 Accent. </div>
-                                        </div>
+                                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left">
+                                        <h5>REDES SOCIALES</h5>
+                                        <ul className='list-unstyled'>
+                                            <li className="first"><span title="Instagram">Instagram</span></li>
+                                            <li><span title="Facebook">Facebook</span></li>
+                                            <li><span title="Twitter">Twitter</span></li>
+                                            <li><span title="TikTok">TikTok</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left margin-top">
+                                        <h5>PROGRAMACIÓN</h5>
+                                        <ul className='list-unstyled'>
+                                            <li><span title="E-Commerce">E-Commerce</span></li>
+                                            <li><span title="Landing Page">Landing Page</span></li>
+                                            <li><span title="App Móviles">App Móviles</span></li>
+                                            <li><span title="App Web">Aplicaciones Web</span></li>
+                                            <li><span title="Software">Software</span></li>
+                                        </ul>
+                                    </div>
+
+                                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left margin-top">
+                                        <h5>FOTOGRAFÍA</h5>
+                                        <ul className='list-unstyled'>
+                                            <li className="first"><span title="Foto Producto">Foto Producto</span></li>
+                                            <li><span title="Gastronomía">Gastronomía</span></li>
+                                            <li><span title="Retratos">Retratos</span></li>
+                                        </ul>
                                     </div>
                                 </footer>
                             </div>
                             <footer id="footer" className="footer color-bg">
-                                    <div className="footer-bottom">
-                                        <div className="container-accent">
-                                            <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-center">
+                                <div className="footer-bottom">
+                                    <div className="container">
+                                            <div className="col-xs-12 col-sm-6 col-md-8 col-lg-8">
+                                                <h3>Accent Digital Agency</h3>
+                                                <p><strong>Valencia.</strong>Av 4Av. CC P Reda Building Torre A Nivel 3 Ofic.13 Urb El Parral.</p>
+                                            </div>
 
-                                                <div className="col-xs-12 col-sm-6 col-md-8 col-lg-8">
-                                                    <h3>Accent Digital Agency</h3>
-                                                    <p><strong>Valencia.</strong>Av 4Av. CC P Reda Building Torre A Nivel 3 Ofic.13 Urb El Parral.</p>
+
+                                            <div id="footer-det" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                                                <div className="col-xs-12 col-md-3 col-lg-3">
+                                                    <h5 className="bolder">REDES SOCIALES</h5>
+                                                    <ul className='list-unstyled'>
+                                                        <li className="first"><span title="Instagram">Instagram</span></li>
+                                                        <li><span title="Facebook">Facebook</span></li>
+                                                        <li><span title="Twitter">Twitter</span></li>
+                                                        <li><span title="TikTok">TikTok</span></li>
+                                                    </ul>
+                                                </div>
+
+                                                <div className="col-xs-12 col-md-3 col-lg-3">
+                                                    <h5 className="bolder">DISEÑO GRÁFICO</h5>
+                                                    <ul className='list-unstyled'>
+                                                        <li className="first"><span title="Logos">Logos</span></li>
+                                                        <li><span title="Branding">Branding</span></li>
+                                                        <li><span title="Flyers">Flyers</span></li>
+                                                        <li><span title="Gigantografía">Gigantografía</span></li>
+                                                    </ul>
                                                 </div>
 
 
-                                                <div id="footer-det" className="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">PROGRAMACIÓN</h4>
-                                                        </div>
-                                                        
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Páginas Web">Páginas Web</span></li>
-                                                                <li><span title="E-Commerce">E-Commerce</span></li>
-                                                                <li><span title="Landing Page">Landing Page</span></li>
-                                                                <li><span title="App Móviles">App Móviles</span></li>
-                                                                <li><span title="App Web">Aplicaciones Web</span></li>
-                                                                <li><span title="Software">Software</span></li>
-                                                            </ul>
-                                                        </div>
-                                                        
-                                                    </div>
-
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">REDES SOCIALES</h4>
-                                                        </div>
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Instagram">Instagram</span></li>
-                                                                <li><span title="Facebook">Facebook</span></li>
-                                                                <li><span title="Twitter">Twitter</span></li>
-                                                                <li><span title="TikTok">TikTok</span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
+                                                <div className="col-xs-12 col-md-3 col-lg-3">
+                                                    <h5 className="bolder">PROGRAMACIÓN</h5>
+                                                    <ul className='list-unstyled'>
+                                                        <li className="first"><span title="Páginas Web">Páginas Web</span></li>
+                                                        <li><span title="E-Commerce">E-Commerce</span></li>
+                                                        <li><span title="Landing Page">Landing Page</span></li>
+                                                        <li><span title="App Móviles">App Móviles</span></li>
+                                                        <li><span title="App Web">Aplicaciones Web</span></li>
+                                                        <li><span title="Software">Software</span></li>
+                                                    </ul>
+                                                </div>
 
 
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">DISEÑO GRÁFICO</h4>
-                                                        </div>
-
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Logos">Logos</span></li>
-                                                                <li><span title="Branding">Branding</span></li>
-                                                                <li><span title="Flyers">Flyers</span></li>
-                                                                <li><span title="Gigantografía">Gigantografía</span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
-
-                                                    <div id="fila_footer" className="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                                                        <div className="module-heading">
-                                                            <h4 className="module-title">FOTOGRAFÍA</h4>
-                                                        </div>
-
-                                                        <div className="module-body">
-                                                            <ul className='list-unstyled'>
-                                                                <li className="first"><span title="Foto Producto">Foto Producto</span></li>
-                                                                <li><span title="Gastronomía">Gastronomía</span></li>
-                                                                <li><span title="Retratos">Retratos</span></li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-
+                                                <div className="col-xs-12 col-md-3 col-lg-3">
+                                                    <h5 className="bolder">FOTOGRAFÍA</h5>
+                                                    <ul className='list-unstyled'>
+                                                        <li className="first"><span title="Foto Producto">Foto Producto</span></li>
+                                                        <li><span title="Gastronomía">Gastronomía</span></li>
+                                                        <li><span title="Retratos">Retratos</span></li>
+                                                    </ul>
                                                 </div>
 
                                             </div>
-                                        </div>
-                                        
-                                    </div>
 
-                                    <div className="copyright-bar">
-                                      
-                                        <div className="col-xs-12 col-sm-12 no-padding copyright">&copy; Copyright 2021 Accent. </div>
-                                        
-                                    </div>
-                                </footer>
+                                        </div>
+                                   
+                                    
+                                </div>
+
+                                <div className="copyright-bar">
+                                    
+                                    <div className="col-xs-12 col-sm-12 no-padding copyright">&copy; Copyright 2021 Accent. </div>
+                                    
+                                </div>
+                            </footer>
                         </div>
 
                     </div>

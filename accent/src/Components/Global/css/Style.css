@@ -289,6 +289,9 @@ button{
 .col-center{
     margin: 0 auto;
 }
+.bolder{
+    font-weight: bolder;
+}
 
 #footer-det{
     margin: 0 auto;
@@ -297,10 +300,46 @@ button{
 .footer-foot {
     display: none;
 }
-
-@media (max-width:950px){
- 
+.footer-bottom{
+    width: 100%;
+    color: #fff;
 }
+.footer-mobile{
+    display: none;
+}
+.footer-mobile .col-md-6{
+    width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    float: left;
+}
+.footer-mobile h5{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.footer-mobile span{
+    font-size: 13px;
+}
+
+.aling-left li{
+    text-align: left;
+}
+
+.container-accent{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.margin-top{
+    margin-top: 5%;
+}
+
+.footer-bottom .col-lg-6{
+    float: left;
+}
+
 
 @media(min-width:200px) and (max-width:374px) {
     button{
@@ -308,7 +347,6 @@ button{
     }
 
     .footer-foot{
-        width: 100%;
         margin-top: 10% !important;
     }
 
@@ -441,24 +479,48 @@ button{
     .content-image img{
         margin-left: 0%;
     }
-
+    .servicios{
+        margin-top: 4%;
+    }
     .logoAccent {
         width: 180px;
     }
-    .footer-foot {
-        display: flex;
-        position: absolute;
-        margin-top: 45%;
+    .footer-mobile {
         background-color: #4d4d4d;;
+    }
+    .footer-mobile{
+        margin-top: 25%;
+        padding: 20px;
+        color: #fff;
+    }
+    .footer-mobile h3{
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+    }
+    .footer-mobile p{
+        font-weight: lighter;
+        font-size: 16px;
+        margin-bottom: 12%;
     }
     body{
         background-color: #4d4d4d;;
     }
     .foot-bottom{
-        padding-top: 0%;
+        padding-top: 24%;
         display: flex;
         background-color: #4d4d4d;
         color: #fff;
+        font-weight: bolder;
+    }
+
+    .foot-bottom ul{
+        font-size: 12px;
+        font-weight: lighter;
+    }
+
+    .module-title{
+        font-size: 15px;
         font-weight: bolder;
     }
 
@@ -483,6 +545,10 @@ button{
 
     .copyright{
         color: #fff;
+    }
+
+    .footer-mobile{
+        display: block;
     }
 
 }
@@ -545,6 +611,12 @@ button{
     }
 }
 
+@media (min-width:450px) and (max-width:600px){
+    .footer-mobile{
+        margin-top: 45%;
+    }
+}
+
 @media (min-width: 900px) and (max-width: 1100px){
     .content-text h1{
         font-size: 60px;
@@ -582,7 +654,7 @@ button{
         height: 150vh;
     }
 
-    .footer-foot{
+    .footer-mobile{
         margin-top: 10%;
     }
 
