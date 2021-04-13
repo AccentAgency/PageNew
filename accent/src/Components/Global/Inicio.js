@@ -46,7 +46,7 @@ class Inicio extends Component {
     constructor(props)
     {
         super(props);
-        this.state={button:'inline-block', form:'none', display:'none', select:0, imageStatus:'loading',
+        this.state={button:'inline-block', form:'none', display:'none', select:0, imageStatus:'loading', loaded:false,
             open: false,
             errors: {
                 name:'',
@@ -227,7 +227,7 @@ class Inicio extends Component {
         console.log(this.state.imageStatus);
         AOS.init();
         const {errors} = this.state;
-        if(!this.state.imageStatus === "loading") return <div className="centrado"><img src={gif} alt="cargando"></img></div>;
+        if(!this.state.loaded) return <div className="centrado"><img src={gif} alt="cargando"></img></div>;
         return(
             <div className="">
                 <div className="loader-page" style={{display: this.state.display}}>
@@ -324,8 +324,7 @@ class Inicio extends Component {
                                         </div>
 
                                         <div className="content-image col-xs-12 col-md-6 col-lg-6">
-                                            <img className="img-responsive" src={web} alt="Creamos pagina web" onLoad={this.handleImageLoaded.bind(this)}
-                                                onError={this.handleImageErrored.bind(this)}></img>
+                                            <img className="img-responsive" src={web} alt="Creamos pagina web" onLoad={() => this.setState({loaded: true})}></img>
                                         </div>
 
                                         <div id="text-context" className="content-text col-xs-12 col-md-6 col-lg-6">
