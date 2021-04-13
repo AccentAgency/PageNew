@@ -226,7 +226,7 @@ class Inicio extends Component {
     render(){
         AOS.init();
         const {errors} = this.state;
-        if(!this.state.imageStatus === "loaded") return <div className="centrado"><img src={gif} alt="cargando"></img></div>;
+        if(this.state.imageStatus === "loading") return <div className="centrado"><img src={gif} alt="cargando"></img></div>;
         return(
             <div className="">
                 <div className="loader-page" style={{display: this.state.display}}>
