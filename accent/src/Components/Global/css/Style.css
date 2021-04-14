@@ -549,6 +549,11 @@ body {
 }
 /* TELEFONOS GENERALES */
 @media(max-width : 765px) {
+    #contenido{
+        background-color: transparent !important;
+        background: rgb(121,3,143);
+        background: linear-gradient(180deg, rgba(121,3,143,1) 0%, rgba(76,1,90,1) 100%);
+    }
     .forma{
         display: none;
     }
@@ -559,7 +564,7 @@ body {
 
     .contenedor{
         display: block;
-        padding-top: 12%;
+        padding-top: 8%;
     }
 
     .content-text h1{
@@ -571,11 +576,15 @@ body {
     }
 
     .content-image{
-        width: 80%;
+        width: 100%;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        float: none;
+        float: left;
+        padding-left: 0;
+        padding-right: 0;
+        left: 0;
+        right: 0;
     }
 
     .morado{
@@ -609,7 +618,7 @@ body {
 
     .text-parrafo p {
         text-align: center;
-        font-size: 18px;
+        font-size: 15px;
         color: #fff;
         margin-bottom: 5%;
     }
@@ -629,15 +638,16 @@ body {
     }
 
     .page-footer button{
-        font-size: 18px;
+        font-size: 26px;
         border: none;
         border-radius: 40px;
         background-color: #39b54a;
         color: #fff;
         text-align: center;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 15px;
+        padding-top: 15px;
         margin-top: 0px;
         font-weight: bold;
         align-items: center;
@@ -655,12 +665,14 @@ body {
     }
     .content-image img{
         margin-left: 0%;
+        padding-left: 0;
+        padding-right: 0;
     }
     .servicios{
         margin-top: 4%;
     }
     .logoAccent {
-        width: 180px;
+        width: 150px;
     }
     .footer-mobile {
         background-color: #4d4d4d;;

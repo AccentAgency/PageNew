@@ -319,13 +319,8 @@ class Inicio extends Component {
                     <div id="carousel" className="">
                         <div className="">
                             <div className='contenedor'>
-                                <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select} autoPlay={true} infiniteLoop={true} interval={4000}>
+                                <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select}>
                                     <div className="slider1 col-md-12 col-lg-12">
-                                            <div className="text-fondo">
-                                                <h1>PAGINA WEB</h1>
-                                                <h1>PAGINA WEB</h1>
-                                                <h1>PAGINA WEB</h1>
-                                            </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">TU PÁGINA WEB EN</span> <span className="amarillo">72 HORAS</span></h1>
 
@@ -349,11 +344,6 @@ class Inicio extends Component {
                                     </div>
 
                                     <div id="RedesSociales" className="slider2 col-md-12 col-lg-12">
-                                            <div className="text-fondo">
-                                                <h1>MARKETING</h1>
-                                                <h1>MARKETING</h1>
-                                                <h1>MARKETING</h1>
-                                            </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">CRECE EN</span> <span className="amarillo">REDES SOCIALES</span></h1>
 
@@ -379,11 +369,6 @@ class Inicio extends Component {
                                     </div>
 
                                     <div className="slider3 col-md-12 col-lg-12">
-                                        <div className="text-fondo">
-                                                <h1>DISEÑAMOS</h1>
-                                                <h1>DISEÑAMOS</h1>
-                                                <h1>DISEÑAMOS</h1>
-                                        </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">TRANSFORMA</span> <span className="amarillo">TUS IDEAS</span></h1>
 
@@ -409,11 +394,6 @@ class Inicio extends Component {
                                     </div>
 
                                     <div className="slider4 col-md-12 col-lg-12">
-                                        <div className="text-fondo">
-                                            <h1>FOTOGRAFÍA</h1>
-                                            <h1>FOTOGRAFÍA</h1>
-                                            <h1>FOTOGRAFÍA</h1>
-                                        </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">POTENCIA TU</span> <span className="amarillo">MARCA</span></h1>
 
