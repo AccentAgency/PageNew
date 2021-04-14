@@ -12,7 +12,7 @@
 body {
     background: #fff;
     color: #666666;
-    font-family: "Carmen Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;
     scroll-behavior: smooth;
 }
 #header.header-transparent {
@@ -125,6 +125,7 @@ body {
     padding-left: 10%;
     padding-right: 4%;
     font-size: 5rem;
+    font-family: 'Roboto';
 }
 .text-parrafo{
     margin-top: 4%;
@@ -281,13 +282,13 @@ body {
 }
 .footer-bottom h3{
     color: #fff;
-    font-family: 'Carmen Sans';
+    font-family: 'Open Sans';
     font-weight: bolder;
 }
 
 .footer-bottom p{
     color: #cccccc;
-    font-family: 'Carmen Sans';
+    font-family: 'Open Sans';
 }
 
 
@@ -297,7 +298,7 @@ body {
 }
 
 #fila_footer h4{
-    font-family: 'Carmen Sans';
+    font-family: 'Open Sans';
     font-weight: bold;
     color: #fff;
 }
@@ -427,7 +428,7 @@ body {
 
 .contenedor-formulario button{
     font-size: 15px;
-    font-family: 'Carmen Sans';
+    font-family: 'Open Sans';
     border: none;
     border-radius: 30px;
     background-color: #39b54a !important;
