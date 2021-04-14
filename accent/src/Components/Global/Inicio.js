@@ -317,19 +317,22 @@ class Inicio extends Component {
                             <div className='contenedor'>
                                 <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select} autoPlay={true} infiniteLoop={true} interval={4000}>
                                     <div className="slider1 col-md-12 col-lg-12">
+                                            <div className="text-fondo">
+                                                <h1>PAGINA WEB</h1>
+                                                <h1>PAGINA WEB</h1>
+                                                <h1>PAGINA WEB</h1>
+                                            </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">TU PÁGINA WEB EN</span> <span className="amarillo">72 HORAS</span></h1>
 
                                             <div className="text-parrafo txt-web">
                                                 <p>Muéstrale a tus clientes la información que necesitan de una forma más profesional.</p>
                                             </div>
-
                                             <div className="contenedor-button txt-web">
                                                 <button className="btn_info" onClick={this.hanldeSendForm}>¡SOLICÍTALA <span className="bolder amarillo"> YA!</span></button>
                                                 <p className="more-information">MÁS INFORMACIÓN</p>
                                             </div>
                                         </div>
-
                                         <div className="content-image col-xs-12 col-md-6 col-lg-6">
                                             <img className="img-responsive" src={web} alt="Creamos pagina web"></img>
                                         </div>
@@ -342,11 +345,16 @@ class Inicio extends Component {
                                     </div>
 
                                     <div id="RedesSociales" className="slider2 col-md-12 col-lg-12">
+                                            <div className="text-fondo">
+                                                <h1>MARKETING</h1>
+                                                <h1>MARKETING</h1>
+                                                <h1>MARKETING</h1>
+                                            </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <h1><span className="morado">CRECE EN</span> <span className="amarillo">REDES SOCIALES</span></h1>
 
                                             <div className="text-parrafo txt-web">
-                                                <p>Diseñamos objetivos y estrategias funcionales para tu negocio</p>
+                                                <p>Diseñamos objetivos y estrategias funcionales para tu negocio.</p>
                                             </div>
 
                                             <div className="contenedor-button txt-web">
@@ -361,17 +369,22 @@ class Inicio extends Component {
 
                                         <div id="text-context" className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <div className="text-parrafo">
-                                                <p>Muéstrale a tus clientes la información que necesitan de una forma más profesional.</p>
+                                                <p>Diseñamos objetivos y estrategias funcionales para tu negocio.</p>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="slider3 col-md-12 col-lg-12">
+                                        <div className="text-fondo">
+                                                <h1>DISEÑAMOS</h1>
+                                                <h1>DISEÑAMOS</h1>
+                                                <h1>DISEÑAMOS</h1>
+                                        </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
-                                            <h1><span className="morado">CRECE EN</span> <span className="amarillo">REDES SOCIALES</span></h1>
+                                            <h1><span className="morado">TRANSFORMAMOS</span> <span className="amarillo">TUS IDEAS</span></h1>
 
                                             <div className="text-parrafo txt-web">
-                                                <p>Diseñamos objetivos y estrategias funcionales para tu negocio</p>
+                                                <p>Creamos elementos visuales para resaltar el mensaje de tu marca.</p>
                                             </div>
 
                                             <div className="contenedor-button txt-web">
@@ -386,17 +399,22 @@ class Inicio extends Component {
 
                                         <div id="text-context" className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <div className="text-parrafo">
-                                                <p>Muéstrale a tus clientes la información que necesitan de una forma más profesional.</p>
+                                                <p>Creamos elementos visuales para resaltar el mensaje de tu marca.</p>
                                             </div>
                                         </div>
                                     </div>
 
                                     <div className="slider4 col-md-12 col-lg-12">
+                                        <div className="text-fondo">
+                                            <h1>FOTOGRAFÍA</h1>
+                                            <h1>FOTOGRAFÍA</h1>
+                                            <h1>FOTOGRAFÍA</h1>
+                                        </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
-                                            <h1><span className="morado">CRECE EN</span> <span className="amarillo">REDES SOCIALES</span></h1>
+                                            <h1><span className="morado">POTENCIA TU</span> <span className="amarillo">MARCA</span></h1>
 
                                             <div className="text-parrafo txt-web">
-                                                <p>Diseñamos objetivos y estrategias funcionales para tu negocio</p>
+                                                <p>Impresiona a tus clientes con fotografías que transmitan la calidad de tus productos.</p>
                                             </div>
 
                                             <div className="contenedor-button txt-web">
@@ -411,7 +429,7 @@ class Inicio extends Component {
 
                                         <div id="text-context" className="content-text col-xs-12 col-md-6 col-lg-6">
                                             <div className="text-parrafo">
-                                                <p>Muéstrale a tus clientes la información que necesitan de una forma más profesional.</p>
+                                                <p>Impresiona a tus clientes con fotografías que transmitan la calidad de tus productos.</p>
                                             </div>
                                         </div>
                                     </div>

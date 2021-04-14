@@ -131,6 +131,9 @@ body {
     padding-left: 15%;
     padding-right: 15%;
 }
+.text-fondo{
+    display: none;
+}
 .text-parrafo p{
     text-align: justify;
     font-size: 25px;
@@ -525,7 +528,11 @@ body {
         margin-right: 0%;
     }
 }
-
+@media(min-width:500px) and (max-width:765px){
+    .text-fondo h1{
+        font-size: 5.3em !important;
+    }
+}
 /* TELEFONOS GENERALES */
 @media(max-width : 765px) {
     .forma{
@@ -706,9 +713,27 @@ body {
 
     .footer-mobile{
         display: block;
+        width: 100%;
     }
     .centrado img{
         width: 180px !important;
+    }
+    .text-fondo{
+        position: absolute;
+        top: 28%;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        display: block;
+    }
+
+    .text-fondo h1{
+        font-size: 3.6em;
+        margin-bottom: 0;
+        color: #fff;
+        opacity: .2;
+        font-weight: bolder;  
     }
 
 }
