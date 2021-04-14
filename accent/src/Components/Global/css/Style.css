@@ -490,7 +490,7 @@ body {
     }
 
     .content-text h1 {
-        font-size: 25px !important;
+        font-size: 25px;
     }
 
     .footer-foot{
@@ -647,6 +647,8 @@ body {
         margin-top: 25%;
         padding: 20px;
         color: #fff;
+        background-color: #4d4d4d;
+        float: left;
     }
     .footer-mobile h3{
         font-size: 20px;
@@ -659,7 +661,7 @@ body {
         margin-bottom: 12%;
     }
     body{
-        background-color: #4d4d4d;;
+        background-color: #fff;;
     }
     .foot-bottom{
         padding-top: 24%;
