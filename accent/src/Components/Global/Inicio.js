@@ -234,7 +234,6 @@ class Inicio extends Component {
     render(){
         AOS.init();
         const {errors} = this.state;
-        console.log(this.state.loader);
         if (this.state.loader) return <div className="centrado"><img src={gif} alt="cargando"></img></div>;
         return(
             <div className="">
