@@ -541,6 +541,7 @@ body {
         margin-left: 0%;
         margin-right: 0%;
     }
+
 }
 @media(min-width:500px) and (max-width:765px){
     .text-fondo h1{
@@ -553,6 +554,7 @@ body {
         background-color: transparent !important;
         background: rgb(121,3,143);
         background: linear-gradient(180deg, rgba(121,3,143,1) 0%, rgba(76,1,90,1) 100%);
+        height: 100%;
     }
     .forma{
         display: none;
@@ -565,6 +567,8 @@ body {
     .contenedor{
         display: block;
         padding-top: 8%;
+        height: 100%;
+        padding-bottom: 5%;
     }
 
     .content-text h1{
@@ -628,7 +632,9 @@ body {
     }
 
     .page-footer{
-        display: block;
+        display: inline-block;
+        float: none;
+        margin-top: 0%;
     }
 
     .page-footer p{
@@ -824,9 +830,7 @@ body {
 }
 
 @media (min-width:450px) and (max-width:600px){
-    .footer-mobile{
-        margin-top: 45%;
-    }
+
 }
 
 @media (min-width: 900px) and (max-width: 1100px){

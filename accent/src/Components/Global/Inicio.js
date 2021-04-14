@@ -47,7 +47,7 @@ class Inicio extends Component {
     constructor(props)
     {
         super(props);
-        this.state={button:'inline-block', form:'none', display:'none', select:0,loader:true, gif:'block',
+        this.state={button:'block', form:'none', display:'none', select:0,loader:true, gif:'block',
             open: false,
             errors: {
                 name:'',
@@ -418,7 +418,6 @@ class Inicio extends Component {
                                         </div>
                                     </div>
                                 </Carousel>
-                                
                                 <footer className="page-footer">
                                     <div className="col-md-12" style={{display:this.state.button}}>
                                         <p>CLICK AQUI</p>
