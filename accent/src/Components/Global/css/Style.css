@@ -97,7 +97,7 @@ body {
 }
 #contenido {
     background-color:#82039A;
-    height: 100vh;
+    height: 110vh;
     width: 100%;
     padding-top: 5%;
 }
@@ -672,7 +672,7 @@ body {
         margin-top: 4%;
     }
     .logoAccent {
-        width: 150px;
+        width: 130px;
     }
     .footer-mobile {
         background-color: #4d4d4d;;
