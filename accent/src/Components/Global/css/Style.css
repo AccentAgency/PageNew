@@ -489,6 +489,10 @@ body {
         width: 100% !important;
     }
 
+    .content-text h1 {
+        font-size: 25px !important;
+    }
+
     .footer-foot{
         margin-top: 10% !important;
     }
@@ -543,6 +547,14 @@ body {
         padding-left: 2%;
         padding-right: 2%;
         margin-bottom: 0px;
+    }
+
+    .content-image{
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
     }
 
     .morado{
