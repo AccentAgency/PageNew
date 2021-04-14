@@ -319,7 +319,7 @@ class Inicio extends Component {
                     <div id="carousel" className="">
                         <div className="">
                             <div className='contenedor'>
-                                <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select}>
+                                <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select} autoPlay={true} infiniteLoop={true} interval={4000}>
                                     <div className="slider1 col-md-12 col-lg-12">
                                             <div className="text-fondo">
                                                 <h1>PAGINA WEB</h1>
