@@ -125,11 +125,11 @@ body {
     padding-left: 10%;
     padding-right: 4%;
     font-size: 5rem;
-    font-family: 'Roboto';
+    font-family: 'Poppins';
 }
 .text-parrafo{
     margin-top: 4%;
-    padding-left: 15%;
+    padding-left: 10%;
     padding-right: 15%;
 }
 .text-fondo{
@@ -248,6 +248,19 @@ body {
 }
 .page-footer{
     display:none;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: auto;
+    padding: 10px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom:0;
+    clear: both;
+    z-index: 50;
+}
+.page-footer .contenedor-formulario{
     background-color: #ededed;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
@@ -257,10 +270,10 @@ body {
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
-    width: 100%;
     bottom:0;
-    clear: both;
     z-index: 50;
+    width: 100%;
+    right: 0;
 }
 .page-footer p{
     align-items: center;
@@ -612,13 +625,14 @@ body {
     .page-footer p{
         margin-bottom: 0px !important;
         text-align: center;
+        color: #fff;
     }
 
     .page-footer button{
         font-size: 18px;
         border: none;
         border-radius: 40px;
-        background-color: #79038f;
+        background-color: #39b54a;
         color: #fff;
         text-align: center;
         padding-left: 15px;
@@ -652,8 +666,8 @@ body {
         background-color: #4d4d4d;;
     }
     .footer-mobile{
-        margin-top: 25%;
         padding: 20px;
+        padding-top: 30px;
         color: #fff;
         background-color: #4d4d4d;
         float: left;

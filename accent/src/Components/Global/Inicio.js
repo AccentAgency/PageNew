@@ -57,7 +57,7 @@ class Inicio extends Component {
         }
         this.handleForm = this.handleForm.bind(this);
         this.handleClose = this.handleClose.bind(this);
-        this.handleClose2 = this.handleClose.bind(this);
+        this.handleClose2 = this.handleClose2.bind(this);
         this.handleChange = this.handleChange.bind(this);
         this.hanldeSendForm = this.hanldeSendForm.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
@@ -103,7 +103,7 @@ class Inicio extends Component {
             break;
         }
     }
-    handleClose2(){
+    handleClose2 = () =>{
         this.setState({open:false});
     }
     handleChange(event){
@@ -220,7 +220,9 @@ class Inicio extends Component {
             name:'',
             email:'',
             phone:'',
-            tipoForm:''
+            tipoForm:'',
+            button:'inline-block',
+            form:'none'
         })
     }    
     componentDidMount=()=>{
@@ -230,6 +232,8 @@ class Inicio extends Component {
             }.bind(this),1000)
         }.bind(this))
     }
+
+    
     
     render(){
         AOS.init();
@@ -315,7 +319,7 @@ class Inicio extends Component {
                     <div id="carousel" className="">
                         <div className="">
                             <div className='contenedor'>
-                                <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select} autoPlay={true} infiniteLoop={true} interval={4000}>
+                                <Carousel showArrows={false} showStatus={false} showThumbs={false} selectedItem={this.state.select}>
                                     <div className="slider1 col-md-12 col-lg-12">
                                             <div className="text-fondo">
                                                 <h1>PAGINA WEB</h1>
@@ -381,7 +385,7 @@ class Inicio extends Component {
                                                 <h1>DISEÑAMOS</h1>
                                         </div>
                                         <div className="content-text col-xs-12 col-md-6 col-lg-6">
-                                            <h1><span className="morado">TRANSFORMAMOS</span> <span className="amarillo">TUS IDEAS</span></h1>
+                                            <h1><span className="morado">TRANSFORMA</span> <span className="amarillo">TUS IDEAS</span></h1>
 
                                             <div className="text-parrafo txt-web">
                                                 <p>Creamos elementos visuales para resaltar el mensaje de tu marca.</p>
@@ -440,7 +444,7 @@ class Inicio extends Component {
                                         <p>CLICK AQUI</p>
                                     </div>    
                                     <div className="col-md-12 center" style={{display:this.state.button}}>
-                                        <button className="btn_info" onClick={this.handleForm}>¡SOLICÍTALA <span className="bolder amarillo"> YA!</span></button>
+                                        <button className="btn_info" onClick={this.handleForm}>¡SOLICÍTALA <span className="bolder"> YA!</span></button>
                                     </div>
 
                                     <div className="contenedor-formulario padding-cont" style={{display:this.state.form}}>
@@ -484,50 +488,6 @@ class Inicio extends Component {
                                             <button className="btn_form">ENVIAR</button>
                                             
                                         </form>
-                                    </div>
-                                </footer>
-                                <footer className="footer-mobile">
-                                    <h3>Accent Digital Agency</h3>
-                                    <p><strong>Valencia.</strong>Av 4Av. CC P Reda Building Torre A Nivel 3 Ofic.13 Urb El Parral.</p>
-
-                                    <div className="col-xs-12 col-md-6 col-lg-6">
-                                        <h5>DISEÑO GRÁFICO</h5>
-                                        <ul className='list-unstyled'>
-                                            <li className="first"><span title="Logos">Logos</span></li>
-                                            <li><span title="Branding">Branding</span></li>
-                                            <li><span title="Flyers">Flyers</span></li>
-                                            <li><span title="Gigantografía">Gigantografía</span></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left">
-                                        <h5>REDES SOCIALES</h5>
-                                        <ul className='list-unstyled'>
-                                            <li className="first"><span title="Instagram">Instagram</span></li>
-                                            <li><span title="Facebook">Facebook</span></li>
-                                            <li><span title="Twitter">Twitter</span></li>
-                                            <li><span title="TikTok">TikTok</span></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left margin-top">
-                                        <h5>PROGRAMACIÓN</h5>
-                                        <ul className='list-unstyled'>
-                                            <li><span title="E-Commerce">E-Commerce</span></li>
-                                            <li><span title="Landing Page">Landing Page</span></li>
-                                            <li><span title="App Móviles">App Móviles</span></li>
-                                            <li><span title="App Web">Aplicaciones Web</span></li>
-                                            <li><span title="Software">Software</span></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left margin-top">
-                                        <h5>FOTOGRAFÍA</h5>
-                                        <ul className='list-unstyled'>
-                                            <li className="first"><span title="Foto Producto">Foto Producto</span></li>
-                                            <li><span title="Gastronomía">Gastronomía</span></li>
-                                            <li><span title="Retratos">Retratos</span></li>
-                                        </ul>
                                     </div>
                                 </footer>
                             </div>
@@ -601,6 +561,50 @@ class Inicio extends Component {
 
                     </div>
                 </div>
+                <footer className="footer-mobile">
+                    <h3>Accent Digital Agency</h3>
+                    <p><strong>Valencia.</strong>Av 4Av. CC P Reda Building Torre A Nivel 3 Ofic.13 Urb El Parral.</p>
+
+                    <div className="col-xs-12 col-md-6 col-lg-6">
+                        <h5>DISEÑO GRÁFICO</h5>
+                        <ul className='list-unstyled'>
+                            <li className="first"><span title="Logos">Logos</span></li>
+                            <li><span title="Branding">Branding</span></li>
+                            <li><span title="Flyers">Flyers</span></li>
+                            <li><span title="Gigantografía">Gigantografía</span></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left">
+                        <h5>REDES SOCIALES</h5>
+                        <ul className='list-unstyled'>
+                            <li className="first"><span title="Instagram">Instagram</span></li>
+                            <li><span title="Facebook">Facebook</span></li>
+                            <li><span title="Twitter">Twitter</span></li>
+                            <li><span title="TikTok">TikTok</span></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left margin-top">
+                        <h5>PROGRAMACIÓN</h5>
+                        <ul className='list-unstyled'>
+                            <li><span title="E-Commerce">E-Commerce</span></li>
+                            <li><span title="Landing Page">Landing Page</span></li>
+                            <li><span title="App Móviles">App Móviles</span></li>
+                            <li><span title="App Web">Aplicaciones Web</span></li>
+                            <li><span title="Software">Software</span></li>
+                        </ul>
+                    </div>
+
+                    <div className="col-xs-12 col-md-6 col-lg-6 aling-left margin-top">
+                        <h5>FOTOGRAFÍA</h5>
+                        <ul className='list-unstyled'>
+                            <li className="first"><span title="Foto Producto">Foto Producto</span></li>
+                            <li><span title="Gastronomía">Gastronomía</span></li>
+                            <li><span title="Retratos">Retratos</span></li>
+                        </ul>
+                    </div>
+                </footer>                                    
             </div>
         )
     }
